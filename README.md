@@ -7,9 +7,7 @@ Download and add the FieldTrip toolbox (https://www.fieldtriptoolbox.org/) to yo
 This file specifies input data locations and output paths for processing and saving.
 
 ## Scipts: 
-Main Script: Load and preprocess data in the /Raw_data.
-
-demo_preprocess.m – The primary script for running the preprocessing pipeline. It uses the *P1* (basic preprocessing) and *P2* (detrending) functions below. 
+Main Script: demo_preprocess.m, load and preprocess the iEEG data in the /Raw_data. It uses the *P1* (basic preprocessing) and *P2* (detrending) functions below. 
 
 **P1_TMS_iEEG_preprocessing.m**: basic preprocessing, including filtering, artifact interpolation, and re-referencing, downsamlping etc.
 
