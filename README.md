@@ -4,7 +4,7 @@
 Download and add the FieldTrip toolbox (https://www.fieldtriptoolbox.org/) to your MATLAB path.
 
 ## queue_files:
-This file specifies input data locations and output paths for processing and saving.
+This file specifies input data locations, output filename and paths for processing and saving.
 
 ## Scipts: 
 Main Script: demo_preprocess.m, load and preprocess the iEEG data in the /Raw_data. It uses the *P1* (basic preprocessing) and *P2* (detrending) functions below. 
