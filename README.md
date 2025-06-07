@@ -21,6 +21,6 @@ ftData_epoch_tms.trial: including all trials, each trial was organized as a matr
 
 ftData_epoch_tms.label: Channel names.
 
-ftData_epoch_tms.time: Relative time points for each trial (should be −1 to +2 seconds in relative to TMS onset).
+ftData_epoch_tms.time: Relative time points for each trial.
 
 ftData_epoch_sham: Structure is identical to ftData_epoch_tms, containing sham condition trials.
