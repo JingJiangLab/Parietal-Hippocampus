@@ -1,9 +1,0 @@
-Channel,Contact,Side,Group,Number,mniX,mniY,mniZ,anatX,anatY,anatZ
-1,1,left,anterior_subfrontal_strip,1,-8.15,41.91,-19.82,-8.15,41.91,-19.82
-2,2,left,anterior_subfrontal_strip,2,-17.94,43.27,-9.54,-17.94,43.27,-9.54
-3,3,left,anterior_subfrontal_strip,3,-27.08,43.55,-6.01,-27.08,43.55,-6.01
-4,4,left,anterior_subfrontal_strip,4,-37.91,46.88,-4.62,-37.91,46.88,-4.62
-7,7,left,parahippocampal_strip,1,-45.93,-44.96,-23.42,-45.93,-44.96,-23.42
-8,8,left,parahippocampal_strip,2,-40.3,-34.44,-24.35,-40.3,-34.44,-24.35
-9,9,left,parahippocampal_strip,3,-37.58,-25.83,-28.25,-37.58,-25.83,-28.25
-10,10,left,parahippocampal_strip,4,-32.01,-15.66,-31.1,-32.01,-15.66,-31.1
