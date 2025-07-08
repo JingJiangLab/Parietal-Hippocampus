@@ -1,5 +1,6 @@
 # Parietal-Hippocampus
 Preprint: https://www.biorxiv.org/content/10.1101/2025.06.08.658503v1
+Both the code for concurrent TMS-iEEG preprocessing and the preprocessed TMS-fMRI dataset (/TMS-fMRI_data) are provided (see the preprint for details). Instructions for using the preprocessing code are described below.
 
 ## Aim
 Concurrent TMS-iEEG preprocessing
@@ -22,7 +23,7 @@ Main Script: demo_preprocess.m, load and preprocess the iEEG data in the /Raw_da
 Raw data are not openly available due to reasons of sensitivity. The provided code was developed using LFP recordings from the Neuralynx system and should be compatible with files saved in similar systems or formats.
 
 ## Output
-After running demo_preprocess.m, the processed data will be saved in:Preprocessed/SubID/Detrended. Two versions will be generated (BroadFilter: 2–200 Hz; NarrowFilter: 2–35 Hz) with the main variables (ftData_epoch_tms and ftData_epoch_sham).
+After running demo_preprocess.m, the processed data will be saved in: Preprocessed/SubID/Detrended. Two versions will be generated (BroadFilter: 2–200 Hz; NarrowFilter: 2–35 Hz) with the main variables (ftData_epoch_tms and ftData_epoch_sham).
 
 ftData_epoch_tms.trial: including all trials, each trial was organized as a matrix (Channels × Time).
 
